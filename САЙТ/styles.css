@@ -1,0 +1,35 @@
+body {
+    font-family: 'Helvetica', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #00308F;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: #d0d4d7;
+    padding: 50px 30px;
+    border: 1px solid #b9bcc1;
+    box-shadow: 
+        inset 3px 3px 5px #c2c6ca,
+        inset -3px -3px 5px #dde1e4, 
+        5px 5px 10px rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+    width: 90%;
+    border-radius: 20px;
+}
+
+.main-title {
+    font-size: 48px;
+    margin-bottom: 30px;
+    transition: opacity 0.5s; /* Плавный переход для анимации */
+}
+
+.subtitle {
+    font-size: 16px;
+    color: #777;
+}
